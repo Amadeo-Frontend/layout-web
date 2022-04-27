@@ -1,0 +1,25 @@
+@media (min-width: 769px){
+    body {
+        background-image: url(/image/fundo-3.jpg);
+        }
+        h1, h2 {
+            color: rgb(30, 30, 246);
+        }
+    }
+    @media (max-width: 768px){
+    body {
+        background-color: rgb(0, 92, 100);
+        font-size: 17px;
+    }
+    h1, h2 {
+        color: rgb(217, 151, 9);
+    }
+    }
+    @media (max-width: 425px){
+    body{
+        background-color: rgb(184, 4, 163);
+        width: 100%;
+        font-size: 15px;
+        overflow: auto;
+    }
+    }

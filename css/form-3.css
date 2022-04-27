@@ -1,0 +1,34 @@
+@media (min-width: 769px){
+        header img {
+            filter: drop-shadow(8px 8px 12px rgb(222, 247, 32));
+        }
+        header img:hover  {
+            filter: grayscale(1);
+        }
+        h1, h2 {
+            color: rgb(30, 30, 246);
+        }
+    }
+    @media (max-width: 768px){
+    body {
+        background-color: rgb(80, 0, 100);
+        font-size: 17px;
+    }
+    header img:hover {
+        filter:drop-shadow(8px 8px 12px blue);
+    }
+    h1, h2 {
+        color: rgb(9, 217, 186);
+    }
+    }
+    @media (max-width: 425px){
+    body{
+        background-color: rgb(184, 25, 4);
+        width: 100%;
+        min-width: 320px;
+        font-size: 15px;
+    }
+    header img:hover {
+        filter:sepia(100%);
+    }
+    }

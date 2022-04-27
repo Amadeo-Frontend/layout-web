@@ -1,0 +1,28 @@
+@media (min-width: 769px){
+    h1, h2, h3, h4, h5, h6 {
+        color: rgb(229, 131, 251);
+    }   
+    }
+    @media (max-width: 768px){
+    body {
+        background-color: cadetblue;
+        font-size: 17px;
+    } 
+    footer {
+         background-color: black;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: rgb(182, 80, 89);
+    }
+    }
+    @media (max-width: 425px){
+    body{
+        background-color: rgb(4, 184, 175);
+        width: 100%;
+        min-width: 320px;
+        font-size: 15px;
+    }
+    footer {
+        background-color: rgb(103, 2, 2);
+   }
+    }

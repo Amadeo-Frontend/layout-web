@@ -1,0 +1,28 @@
+@media (min-width: 769px){
+        h1, h2 {
+            color: rgb(95, 246, 30);
+        }
+    }
+    @media (max-width: 768px){
+    body {
+        background-color: rgb(74, 230, 244);
+        font-size: 17px;
+    }
+    h1, h2 {
+        color: rgb(247, 42, 59);
+    }
+    .botao {
+        background-color: chocolate;
+    }
+    }
+    @media (max-width: 425px){
+    body{
+        background-color: rgb(4, 184, 175);
+        width: 100%;
+        min-width: 320px;
+        font-size: 15px;
+    }
+    .botao {
+        background-color: rgb(3, 47, 56);
+    }
+    }
